@@ -1,4 +1,6 @@
+#palindrom number
 #https://leetcode.com/problems/palindrome-number/
+```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0 :
@@ -13,3 +15,4 @@ class Solution:
             x = x // 10
 
         return original == reverse
+```
