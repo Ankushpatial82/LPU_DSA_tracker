@@ -10,5 +10,5 @@ class Solution:
             while n % factor == 0:
                 n //= factor
 
-        return n == 1git 
-```
+        return n == 1
+        ```
